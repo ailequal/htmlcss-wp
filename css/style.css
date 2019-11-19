@@ -114,11 +114,11 @@ p {
 }
 
 .feed-rss {
+  padding: 10px;
 }
 
 .feed-rss-title {
   height: 50px;
-  padding: 5px;
   text-align: center;
 }
 
@@ -131,6 +131,16 @@ p {
 .feed-rss-title > h3 {
   display: inline-block;
   font-size: 20px;
+}
+
+.feed-rss-content > ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.feed-rss-content > ul > li {
+  padding: 10px 0 0 0;
+  color: rgb(28, 196, 42);
 }
 
 .col-main {
