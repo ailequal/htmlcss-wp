@@ -1,0 +1,55 @@
+/* everything */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  border: 0px;
+}
+
+body {
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+}
+
+/* header */
+.header {
+  height: 200px;
+  background-color: yellow;
+}
+
+/* main */
+.main {
+  background-color: red;
+}
+.main::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.col-left {
+  float: left;
+  width: 20%;
+  margin-left: 2.5%;
+  background-color: purple;
+}
+
+.col-main {
+  float: left;
+  width: 50%;
+  margin: 0 2.5% 0 2.5%;
+  background-color: orange;
+}
+
+.col-right {
+  float: left;
+  width: 20%;
+  margin-right: 2.5%;
+  background-color: lightblue;
+}
+
+/* footer */
+.footer {
+  height: 100px;
+  background-color: blue;
+}
