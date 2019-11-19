@@ -19,7 +19,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* header */
 .header {
-  height: 500px;
+  height: 400px;
+  margin-bottom: 10px;
 }
 
 .background-header {
@@ -51,10 +52,38 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-bar {
   height: 50px;
+  background-color: rgba(62, 99, 130, 0.83);
+}
+
+.nav-bar > ul {
+  padding-left: 0;
+  list-style-type: none;
+  text-align: center;
 }
 
 .nav-bar > ul > li {
+  border-right: 1px solid black;
+  line-height: 50px;
+}
+.nav-bar > ul > li:last-child {
+  border-right: 0;
+}
+
+.nav-bar > ul > li > a {
+  height: 50px;
+  padding: 0 10px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+}
+.nav-bar > ul > li:hover > a {
+  background-color: rgba(97, 167, 229, 0.47);
+}
+
+.nav-bar > ul > li,
+.nav-bar > ul > li > a {
   display: inline-block;
+  height: 50px;
 }
 
 /* main */
