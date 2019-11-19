@@ -11,10 +11,15 @@ body {
   background-image: url(../img/natural-pattern.png);
   background-position: center;
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 28px;
 }
 
 /* header */
@@ -74,6 +79,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 10px;
   vertical-align: middle;
   text-decoration: none;
+  text-transform: uppercase;
   color: white;
 }
 .nav-bar > ul > li:hover > a {
@@ -88,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* main */
 .main {
-  background-color: red;
+  /* nothing */
 }
 .main::after {
   content: '';
@@ -96,25 +102,47 @@ h1, h2, h3, h4, h5, h6 {
   clear: both;
 }
 
+.col {
+  background-color: white;
+  border-radius: 5px;
+}
+
 .col-left {
   float: left;
   width: 20%;
   margin-left: 2.5%;
-  background-color: purple;
+}
+
+.feed-rss {
+}
+
+.feed-rss-title {
+  height: 50px;
+  padding: 5px;
+  text-align: center;
+}
+
+.feed-rss-title > i {
+  display: inline-block;
+  font-size: 30px;
+  color: rgb(247, 176, 22);
+}
+
+.feed-rss-title > h3 {
+  display: inline-block;
+  font-size: 20px;
 }
 
 .col-main {
   float: left;
   width: 50%;
   margin: 0 2.5% 0 2.5%;
-  background-color: orange;
 }
 
 .col-right {
   float: left;
   width: 20%;
   margin-right: 2.5%;
-  background-color: lightblue;
 }
 
 /* footer */
