@@ -6,7 +6,7 @@
 }
 
 body {
-  width: 80%;
+  width: 1280px;
   margin: 20px auto;
   background-image: url(../img/natural-pattern.png);
   background-position: center;
@@ -120,16 +120,23 @@ p {
   height: 50px;
   text-align: center;
 }
+.feed-rss-title::after {
+  content: '';
+  display: table;
+  clear: both;
+}
 
 .feed-rss-title > i {
-  display: inline-block;
+  float: left;
   font-size: 30px;
   color: rgb(247, 176, 22);
 }
 
 .feed-rss-title > h3 {
-  display: inline-block;
+  float: left;
+  width: 60%;
   font-size: 20px;
+  font-weight: 500;
 }
 
 .feed-rss-content > ul {
@@ -153,6 +160,8 @@ p {
   padding: 20px 0 0 0;
   font-size: 26px;
   text-transform: uppercase;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px rgba(0, 5, 0, 0.74);
 }
 
 .content-main > .first {
@@ -169,10 +178,11 @@ p {
   padding: 20px;
 }
 
-.widget > h4 {
+.widget > h3 {
   padding: 20px 0 0 0;
   font-size: 20px;
   text-transform: capitalize;
+  font-weight: 500;
 }
 
 .widget > .first {
@@ -205,9 +215,18 @@ p {
 
 .social {
   text-align: center;
+  height: 76px;
+  margin-top: 20px;
+}
+.social::after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .social > i {
+  float: left;
+  width: calc(100% / 3);
   color: rgba(0, 5, 0, 0.37);
   font-size: 36px;
 }
