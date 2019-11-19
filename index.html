@@ -2,19 +2,22 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/style.css">
-  <title>htmlcss-struttura-wp</title>
+  <title>htmlcss-wp</title>
 </head>
 <body>
 
   <!-- header -->
   <header class="header">
-    <div class="logo">
-      <h1>Natural</h1>
+    <div class="background-header">
+      <div class="logo">
+        <img src="img/natural-logo.png" alt="The Natural Logo">
+        <h2>Another beautiful organic theme</h2>
+      </div>
     </div>
-    <nav>
+    <nav class="nav-bar">
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
@@ -30,13 +33,20 @@
 
   <!-- main -->
   <main class="main">
-    <div class="col-left feed-rss">
-      <h4>Organic Themes</h4>
-      <p>How to pick a WordPress theme for 2020.</p>
-      <p>The updated Gutenberg portfolio theme.</p>
-      <p>Black Friday through Cyber Monday Deal for WordPress.</p>
-      <p>The Ultime Guide to optimizing your WordPress theme for Gutenberg.</p>
-      <p>A better WordPress page builder.</p>
+    <div class="col-left">
+      <div class="feed-rss">
+        <div class="feed-rss-title">
+          <i class="fas fa-rss-square"></i>
+          <h4>Organic Themes</h4>
+        </div>
+        <div class="feed-rss-content">
+          <p>How to pick a WordPress theme for 2020.</p>
+          <p>The updated Gutenberg portfolio theme.</p>
+          <p>Black Friday through Cyber Monday Deal for WordPress.</p>
+          <p>The Ultime Guide to optimizing your WordPress theme for Gutenberg.</p>
+          <p>A better WordPress page builder.</p>
+        </div>
+      </div>
     </div>
     <div class="col-main">
       <div class="content-main">
