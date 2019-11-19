@@ -94,7 +94,7 @@ p {
 
 /* main */
 .main {
-  /* nothing */
+  margin-bottom: 10px;
 }
 .main::after {
   content: '';
@@ -110,7 +110,6 @@ p {
 .col-left {
   float: left;
   width: 20%;
-  margin-left: 2.5%;
 }
 
 .feed-rss {
@@ -146,13 +145,42 @@ p {
 .col-main {
   float: left;
   width: 50%;
-  margin: 0 2.5% 0 2.5%;
+  margin: 0 5% 0 5%;
+  padding: 20px;
+}
+
+.content-main > h3 {
+  padding: 20px 0 0 0;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+.content-main > .first {
+  padding: 0;
+}
+
+.content-main > p {
+  padding: 10px 0 0 0;
 }
 
 .col-right {
   float: left;
   width: 20%;
-  margin-right: 2.5%;
+  padding: 20px;
+}
+
+.widget > h4 {
+  padding: 20px 0 0 0;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.widget > .first {
+  padding: 0;
+}
+
+.widget > p {
+  padding: 10px 0 0 0;
 }
 
 /* footer */
