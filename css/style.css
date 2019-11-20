@@ -195,7 +195,6 @@ p {
 
 /* footer */
 .footer {
-  height: 100px;
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
 }
@@ -205,7 +204,7 @@ p {
   text-align: center;
   font-size: 16px;
   font-style: italic;
-  margin: 4px;
+  margin: 0 4px;
   padding-top: 4px;
   border-bottom: 1px solid rgba(0, 5, 0, 0.37);
 }
@@ -215,8 +214,6 @@ p {
 
 .social {
   text-align: center;
-  height: 76px;
-  margin-top: 20px;
 }
 .social::after {
   content: '';
@@ -227,6 +224,7 @@ p {
 .social > i {
   float: left;
   width: calc(100% / 3);
+  padding: 20px 0;
   color: rgba(0, 5, 0, 0.37);
   font-size: 36px;
 }
